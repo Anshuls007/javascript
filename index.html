@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Interest Calculator</title>
+    <script src="index.js" defer></script>
+</head>
+
+<body>
+    <div class="main">
+        <div class="container">
+            <h1>Simple Interest Calculator</h1>
+            <div class="items">
+                <div class="item">
+                    <label for="p-item">Principal Amount</label>
+                    <input type="text" id="p-item" name="fav_language" value="" />
+                    <p class="error" id="p_error">Value should be number</p>
+                </div>
+                <span>X</span>
+                <div class="item">
+                    <label for="r-item">Rate Of Interest</label>
+                    <input type="text" id="r-item" name="fav_language" value="" />
+                    <p class="error" id="r_error">Value should be number</p>
+                </div>
+                <span>X</span>
+                <div class="item">
+                    <label for="t-item">Time</label>
+                    <input type="text" id="t-item" name="fav_language" value="" />
+                    <p class="error"id="t_error">Value should be number</p>
+                </div>
+                <span>=</span>
+                <div class="item">
+                    <p id="result"></p>
+                </div>
+                <button id="submit" onclick="calculate()">Calculate</button>
+            </div>
+            
+            
+        </div>
+    </div>
+</body>
+
+</html>
